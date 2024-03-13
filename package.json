@@ -1,0 +1,24 @@
+{
+  "name": "review_webpack_0313",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src/app.js",
+    "fix": "eslint --fix ./src/app.js",
+    "format": "prettier --write ./src/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "3.2.5",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
